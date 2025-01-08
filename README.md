@@ -15,6 +15,8 @@ This extension provides syntax highlighting and language support for the Matt pr
 4. Click on the three-dot menu in the top-right corner of the Extensions view.
 5. Select "Install from VSIX..." and choose the downloaded `.vsix` file.
 
+Or, you can download extension from Vscode marketplace typing "Matt support language" with the latest version.
+
 ## Usage
 
 1. Open a file with the `.matt` extension in Visual Studio Code.
