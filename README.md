@@ -1,8 +1,6 @@
-Understood. Here is the `README.md` file for your GitHub repository:
 
-### `README.md`
 ```markdown
-# Matt Language Support for Visual Studio Code
+### Matt Language Support for Visual Studio Code
 
 This extension provides syntax highlighting and language support for the Matt programming language in Visual Studio Code.
 
