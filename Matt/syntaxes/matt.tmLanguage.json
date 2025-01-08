@@ -1,0 +1,27 @@
+{
+    "scopeName": "source.matt",
+    "patterns": [
+      {
+        "name": "comment.line.double-slash.matt",
+        "match": "//.*$"
+      },
+      {
+        "name": "comment.block.matt",
+        "begin": "/\\*",
+        "end": "\\*/"
+      },
+      {
+        "name": "keyword.control.matt",
+        "match": "\\b(if|else|while|for|return)\\b"
+      },
+      {
+        "name": "constant.numeric.matt",
+        "match": "\\b\\d+\\b"
+      },
+      {
+        "name": "string.quoted.double.matt",
+        "begin": "\"",
+        "end": "\""
+      }
+    ]
+  }

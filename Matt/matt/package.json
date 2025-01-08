@@ -1,0 +1,25 @@
+{
+  "name": "matt",
+  "displayName": "matt",
+  "description": "This is an extension that makes matt language supportable on VScode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "matt",
+      "aliases": ["matt", "matt"],
+      "extensions": [".matt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "matt",
+      "scopeName": "source.matt",
+      "path": "./syntaxes/package.json"
+    }]
+  }
+}

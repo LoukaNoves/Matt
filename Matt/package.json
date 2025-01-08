@@ -1,0 +1,34 @@
+{
+  "name": "matt-language",
+  "displayName": "Matt support language",
+  "description": "Syntax highlighting for Matt language",
+  "version": "0.0.4",
+  "publisher": "Mattsupportlanguage",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/matt-language.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "Mattsupportlanguage",
+        "aliases": ["Matt", "matt"],
+        "extensions": [".matt"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "matt",
+        "scopeName": "source.matt",
+        "path": "./syntaxes/matt.tmLanguage.json"
+      }
+    ]
+  }
+}

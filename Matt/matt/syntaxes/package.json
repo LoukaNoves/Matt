@@ -1,0 +1,19 @@
+{
+    "contributes": {
+      "languages": [
+        {
+          "id": "matt",
+          "aliases": ["Matt", "matt"],
+          "extensions": [".matt"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "matt",
+          "scopeName": "source.matt",
+          "path": "./syntaxes/matt.tmLanguage.json"
+        }
+      ]
+    }
+  }
